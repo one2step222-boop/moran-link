@@ -158,6 +158,8 @@ button{font:inherit; color:inherit; background:none; border:0; cursor:pointer}
 .cwas{font-size:11px; color:var(--muted); text-decoration:line-through; margin-left:5px; font-weight:500}
 .cmeta{font-size:10.5px; color:var(--muted); display:flex; gap:5px; align-items:center}
 .rk{color:var(--rocket); font-weight:800}
+.cl{color:var(--ok); font-weight:800}
+.hot{position:absolute; right:6px; top:6px; font-size:14px; filter:drop-shadow(0 1px 2px rgba(0,0,0,.4))}
 .empty{grid-column:1/-1; text-align:center; color:var(--muted); font-size:13px; padding:34px 0}
 
 /* 링크·푸터 */
@@ -207,7 +209,7 @@ button{font:inherit; color:inherit; background:none; border:0; cursor:pointer}
       <div class="mark" aria-hidden="true">🗿</div>
       <div class="brand">
         <b>모란의 하루</b>
-        <span>2026-07-27 기준 · 24개</span>
+        <span>2026-07-27 기준 · 20개</span>
       </div>
       <button class="iconbtn" id="share" aria-label="이 페이지 공유">↗</button>
     </div>
@@ -220,45 +222,45 @@ button{font:inherit; color:inherit; background:none; border:0; cursor:pointer}
     </div>
     <div class="slides" id="slides">
       <a class="slide" href="https://naver.me/5p0LMmWa" target="_blank" rel="noopener nofollow sponsored">
-        <div class="sfig"><img src="img/973989313826752.jpg" alt="" loading="eager"><div class="sbadge"><span class="tag">43% 할인</span><span class="tag ghost">16L</span></div></div>
+        <div class="sfig"><img src="img/973989313826752.jpg" alt="" loading="eager"><div class="sbadge"><span class="tag">역대급 43% 할인</span><span class="tag ghost">16L</span></div></div>
         <div class="sbody">
           <div class="sname">아이닉 대용량 올스텐 에어프라이어 16L 로티세리</div>
           <div class="srow"><span class="now">169,000<small>원</small></span><span class="was">301,000원</span></div>
-          <div class="smeta"><b>★ 4.84</b> · 리뷰 36,316 · 아이닉샵</div>
+          <div class="smeta"><b>13만원 빠졌음</b> · ★ 4.84 · 리뷰 36,316</div>
         </div>
       </a>
 
       <a class="slide" href="https://naver.me/5dhSWHuv" target="_blank" rel="noopener nofollow sponsored">
-        <div class="sfig"><img src="img/882279309835520.jpg" alt="" loading="eager"><div class="sbadge"><span class="tag">33% 할인</span><span class="tag ghost">23L</span></div></div>
+        <div class="sfig"><img src="img/882279309835520.jpg" alt="" loading="eager"><div class="sbadge"><span class="tag">14만원 빠짐</span><span class="tag ghost">23L</span></div></div>
         <div class="sbody">
           <div class="sname">다룸 올스텐 오븐 에어프라이어 대용량 23L</div>
           <div class="srow"><span class="now">263,900<small>원</small></span><span class="was">399,000원</span></div>
-          <div class="smeta"><b>★ 4.93</b> · 리뷰 1,017 · 다룸 스토어</div>
+          <div class="smeta"><b>40만원 → 26만원</b> · ★ 4.93 · 리뷰 1,017</div>
         </div>
       </a>
 
       <a class="slide" href="https://naver.me/Grg4vTU4" target="_blank" rel="noopener nofollow sponsored">
-        <div class="sfig"><img src="img/810555598291553.jpg" alt="" loading="eager"><div class="sbadge"><span class="tag">25% 할인</span><span class="tag ghost">22L</span></div></div>
+        <div class="sfig"><img src="img/810555598291553.jpg" alt="" loading="eager"><div class="sbadge"><span class="tag">10만원 빠짐</span><span class="tag ghost">22L</span></div></div>
         <div class="sbody">
           <div class="sname">올스텐 오븐에어프라이어 대용량 22L 스텐</div>
           <div class="srow"><span class="now">298,000<small>원</small></span><span class="was">398,000원</span></div>
-          <div class="smeta"><b>★ 4.82</b> · 리뷰 5,842 · STENA</div>
+          <div class="smeta"><b>40만원 → 30만원</b> · ★ 4.82 · 리뷰 5,842</div>
         </div>
       </a>
     </div>
     <div class="dots"><span class="dot on"></span><span class="dot"></span><span class="dot"></span></div>
   </section>
 
-  <nav class="chips" aria-label="카테고리"><button class="chip" data-key="all" data-label="전체 상품" aria-pressed="true">전체</button><button class="chip" data-key="today" data-label="오늘의 추천" aria-pressed="false">오늘의 추천</button><button class="chip" data-key="deal" data-label="지금 급할인" aria-pressed="false">지금 급할인</button><button class="chip" data-key="unopened" data-label="미개봉·전시품 특가" aria-pressed="false">미개봉·전시품 특가</button><button class="chip" data-key="rare" data-label="이런 것도 팔아?" aria-pressed="false">이런 것도 팔아?</button></nav>
+  <nav class="chips" aria-label="카테고리"><button class="chip" data-key="all" data-label="전체 상품" aria-pressed="true">전체</button><button class="chip" data-key="today" data-label="오늘의 추천" aria-pressed="false">오늘의 추천</button><button class="chip" data-key="deal" data-label="지금 급할인" aria-pressed="false">지금 급할인</button><button class="chip" data-key="unopened" data-label="미개봉·전시품 특가" aria-pressed="false">미개봉·전시품 특가</button><button class="chip" data-key="rare" data-label="이런 것도 팔아?" aria-pressed="false">이런 것도 팔아?</button><button class="chip" data-key="bcdeal" data-label="가전 급할인" aria-pressed="false">가전 급할인</button></nav>
 
   <div class="gridwrap">
     <div class="gtitle">
       <h3 id="gtitle">전체 상품</h3>
-      <span id="gcount">24개</span>
+      <span id="gcount">20개</span>
     </div>
     <div class="grid" id="grid">
-      <a class="card" data-sec="today" href="https://naver.me/5p0LMmWa" target="_blank" rel="noopener nofollow sponsored">
-        <div class="cfig"><img src="img/973989313826752.jpg" alt="" loading="lazy"><div class="cbadge"><span class="tag">43%</span></div></div>
+      <a class="card" data-sec="today" data-clicks="0" href="https://naver.me/5p0LMmWa" target="_blank" rel="noopener nofollow sponsored">
+        <div class="cfig"><img src="img/973989313826752.jpg" alt="" loading="lazy"><div class="cbadge"><span class="tag">역대급 43% 할인</span></div></div>
         <div class="cbody">
           <div class="cname">아이닉 대용량 올스텐 에어프라이어 16L 로티세리</div>
           <div class="cmeta"></div>
@@ -266,8 +268,8 @@ button{font:inherit; color:inherit; background:none; border:0; cursor:pointer}
         </div>
       </a>
 
-      <a class="card" data-sec="today" href="https://naver.me/5dhSWHuv" target="_blank" rel="noopener nofollow sponsored">
-        <div class="cfig"><img src="img/882279309835520.jpg" alt="" loading="lazy"><div class="cbadge"><span class="tag">33%</span></div></div>
+      <a class="card" data-sec="today" data-clicks="0" href="https://naver.me/5dhSWHuv" target="_blank" rel="noopener nofollow sponsored">
+        <div class="cfig"><img src="img/882279309835520.jpg" alt="" loading="lazy"><div class="cbadge"><span class="tag">14만원 빠짐</span></div></div>
         <div class="cbody">
           <div class="cname">다룸 올스텐 오븐 에어프라이어 대용량 23L</div>
           <div class="cmeta"></div>
@@ -275,8 +277,8 @@ button{font:inherit; color:inherit; background:none; border:0; cursor:pointer}
         </div>
       </a>
 
-      <a class="card" data-sec="today" href="https://naver.me/Grg4vTU4" target="_blank" rel="noopener nofollow sponsored">
-        <div class="cfig"><img src="img/810555598291553.jpg" alt="" loading="lazy"><div class="cbadge"><span class="tag">25%</span></div></div>
+      <a class="card" data-sec="today" data-clicks="0" href="https://naver.me/Grg4vTU4" target="_blank" rel="noopener nofollow sponsored">
+        <div class="cfig"><img src="img/810555598291553.jpg" alt="" loading="lazy"><div class="cbadge"><span class="tag">10만원 빠짐</span></div></div>
         <div class="cbody">
           <div class="cname">올스텐 오븐에어프라이어 대용량 22L 스텐</div>
           <div class="cmeta"></div>
@@ -284,8 +286,8 @@ button{font:inherit; color:inherit; background:none; border:0; cursor:pointer}
         </div>
       </a>
 
-      <a class="card" data-sec="deal" href="https://link.coupang.com/re/AFFSDP?lptag=AF8348495&amp;pageKey=8054052706&amp;itemId=25334753975&amp;vendorItemId=92235940260&amp;traceid=V0-143-1689c2392d5252ed" target="_blank" rel="noopener nofollow sponsored">
-        <div class="cfig"><img src="img/coupang_8054052706.jpg" alt="" loading="lazy"><div class="cbadge"></div></div>
+      <a class="card" data-sec="deal" data-clicks="0" href="https://link.coupang.com/a/fIKxTkOkID" target="_blank" rel="noopener nofollow sponsored">
+        <div class="cfig"><img src="img/coupang_8054052706.jpg" alt="" loading="lazy"><div class="cbadge"><span class="tag">오늘만 64만원</span></div></div>
         <div class="cbody">
           <div class="cname">Hisense하이센스 4K QD Mini LED 스마트TV</div>
           <div class="cmeta"><span class="rk">로켓배송</span></div>
@@ -293,17 +295,8 @@ button{font:inherit; color:inherit; background:none; border:0; cursor:pointer}
         </div>
       </a>
 
-      <a class="card" data-sec="deal" href="https://link.coupang.com/re/AFFSDP?lptag=AF8348495&amp;pageKey=9485519906&amp;itemId=28246135415&amp;vendorItemId=95199602898&amp;traceid=V0-143-e60fdfeca48da55a" target="_blank" rel="noopener nofollow sponsored">
-        <div class="cfig"><img src="img/coupang_9485519906.jpg" alt="" loading="lazy"><div class="cbadge"></div></div>
-        <div class="cbody">
-          <div class="cname">[2026년형] NICESUN 가정용 냉풍기 거실/침실/사무실 이동식 절전 10L 대용량 에어쿨러+아이스팩*4</div>
-          <div class="cmeta"><span class="rk">로켓배송</span></div>
-          <div class="cprice">69,900<small>원</small></div>
-        </div>
-      </a>
-
-      <a class="card" data-sec="deal" href="https://link.coupang.com/re/AFFSDP?lptag=AF8348495&amp;pageKey=9091065354&amp;itemId=26716398707&amp;vendorItemId=93688021797&amp;traceid=V0-143-ee3f4ed8bb80a52b" target="_blank" rel="noopener nofollow sponsored">
-        <div class="cfig"><img src="img/coupang_9091065354.jpg" alt="" loading="lazy"><div class="cbadge"></div></div>
+      <a class="card" data-sec="deal" data-clicks="0" href="https://link.coupang.com/a/fIKxU17vYy" target="_blank" rel="noopener nofollow sponsored">
+        <div class="cfig"><img src="img/coupang_9091065354.jpg" alt="" loading="lazy"><div class="cbadge"><span class="tag">오늘만 18만원</span></div></div>
         <div class="cbody">
           <div class="cname">창홍 다용도 미니 우물형 냉동고 99L</div>
           <div class="cmeta"><span class="rk">로켓배송</span></div>
@@ -311,53 +304,44 @@ button{font:inherit; color:inherit; background:none; border:0; cursor:pointer}
         </div>
       </a>
 
-      <a class="card" data-sec="deal" href="https://link.coupang.com/re/AFFSDP?lptag=AF8348495&amp;pageKey=127817014&amp;itemId=596505679&amp;vendorItemId=70967544001&amp;traceid=V0-143-0230a6b04ac7e6cb" target="_blank" rel="noopener nofollow sponsored">
-        <div class="cfig"><img src="img/coupang_127817014.jpg" alt="" loading="lazy"><div class="cbadge"></div></div>
+      <a class="card" data-sec="deal" data-clicks="0" href="https://link.coupang.com/a/fIKxTOXdue" target="_blank" rel="noopener nofollow sponsored">
+        <div class="cfig"><img src="img/coupang_9485519906.jpg" alt="" loading="lazy"><div class="cbadge"><span class="tag">오늘만 7만원</span></div></div>
         <div class="cbody">
-          <div class="cname">도블레 국산 특허받은 칼집나지 않는 항균도마</div>
+          <div class="cname">[2026년형] NICESUN 가정용 냉풍기 거실/침실/사무실 이동식 절전 10L 대용량 에어쿨러+아이스팩*4</div>
           <div class="cmeta"><span class="rk">로켓배송</span></div>
-          <div class="cprice">24,800<small>원</small></div>
+          <div class="cprice">69,900<small>원</small></div>
         </div>
       </a>
 
-      <a class="card" data-sec="deal" href="https://link.coupang.com/re/AFFSDP?lptag=AF8348495&amp;pageKey=261192458&amp;itemId=7633145557&amp;vendorItemId=74924265429&amp;traceid=V0-143-5875e3f7a89a609b" target="_blank" rel="noopener nofollow sponsored">
-        <div class="cfig"><img src="img/coupang_261192458.jpg" alt="" loading="lazy"><div class="cbadge"></div></div>
+      <a class="card" data-sec="deal" data-clicks="0" href="https://link.coupang.com/re/AFFTDP?lptag=AF8348495&amp;pageKey=10000011246158&amp;vendorItemId=70000213338115&amp;itemId=20002126051693&amp;traceid=V0-143-b4cb387d134d4256" target="_blank" rel="noopener nofollow sponsored">
+        <div class="cfig"><img src="img/coupang_10000011246158.jpg" alt="" loading="lazy"><div class="cbadge"><span class="tag">오늘만 30만원</span></div></div>
         <div class="cbody">
-          <div class="cname">코멧 순백 3겹 라벤더 바닐라 롤화장지</div>
-          <div class="cmeta"><span class="rk">로켓배송</span></div>
-          <div class="cprice">21,990<small>원</small></div>
+          <div class="cname">★스탠다드★</div>
+          <div class="cmeta">국내투어</div>
+          <div class="cprice">297,000<small>원</small></div>
         </div>
       </a>
 
-      <a class="card" data-sec="deal" href="https://link.coupang.com/re/AFFSDP?lptag=AF8348495&amp;pageKey=8512149593&amp;itemId=24640131938&amp;vendorItemId=91651000295&amp;traceid=V0-143-a935abe191be6b4a" target="_blank" rel="noopener nofollow sponsored">
-        <div class="cfig"><img src="img/coupang_8512149593.jpg" alt="" loading="lazy"><div class="cbadge"></div></div>
+      <a class="card" data-sec="deal" data-clicks="0" href="https://link.coupang.com/re/AFFTDP?lptag=AF8348495&amp;pageKey=10000011455069&amp;vendorItemId=70000304002685&amp;itemId=20002236661901&amp;traceid=V0-143-4eb7d3eaaade393a" target="_blank" rel="noopener nofollow sponsored">
+        <div class="cfig"><img src="img/coupang_10000011455069.jpg" alt="" loading="lazy"><div class="cbadge"><span class="tag">오늘만 5만원</span></div></div>
         <div class="cbody">
-          <div class="cname">탐사 강력 겔 탈취제 포레스트 우디향</div>
-          <div class="cmeta"><span class="rk">로켓배송</span></div>
-          <div class="cprice">12,490<small>원</small></div>
+          <div class="cname">(덕산) 스플라스 리솜 스파&amp;워터파크 [B].소인권</div>
+          <div class="cmeta">국내투어</div>
+          <div class="cprice">50,000<small>원</small></div>
         </div>
       </a>
 
-      <a class="card" data-sec="deal" href="https://link.coupang.com/re/AFFSDP?lptag=AF8348495&amp;pageKey=9471905450&amp;itemId=27967342446&amp;vendorItemId=94925286601&amp;traceid=V0-143-1064d0c4674b01ba" target="_blank" rel="noopener nofollow sponsored">
-        <div class="cfig"><img src="img/coupang_9471905450.jpg" alt="" loading="lazy"><div class="cbadge"></div></div>
+      <a class="card" data-sec="deal" data-clicks="0" href="https://link.coupang.com/re/AFFTDP?lptag=AF8348495&amp;pageKey=10000011453847&amp;vendorItemId=70000303762260&amp;itemId=20002236261671&amp;traceid=V0-143-01a8d1c3e53b1c93" target="_blank" rel="noopener nofollow sponsored">
+        <div class="cfig"><img src="img/coupang_10000011453847.jpg" alt="" loading="lazy"><div class="cbadge"><span class="tag">오늘만 6.6만원</span></div></div>
         <div class="cbody">
-          <div class="cname">퍼실 딥클린 초미세세탁 파워젤 맥스 드럼용 액체세제 본품</div>
-          <div class="cmeta"><span class="rk">로켓배송</span></div>
-          <div class="cprice">16,900<small>원</small></div>
+          <div class="cname">★ 레고랜드 대인/소인 공통 특가</div>
+          <div class="cmeta">국내투어</div>
+          <div class="cprice">66,000<small>원</small></div>
         </div>
       </a>
 
-      <a class="card" data-sec="deal" href="https://link.coupang.com/re/AFFSDP?lptag=AF8348495&amp;pageKey=8548508229&amp;itemId=21436080703&amp;vendorItemId=84095676789&amp;traceid=V0-143-ff37ad35591c9c7c" target="_blank" rel="noopener nofollow sponsored">
-        <div class="cfig"><img src="img/coupang_8548508229.jpg" alt="" loading="lazy"><div class="cbadge"></div></div>
-        <div class="cbody">
-          <div class="cname">베베앙 120 유아물티슈 캡형</div>
-          <div class="cmeta"><span class="rk">로켓배송</span></div>
-          <div class="cprice">11,600<small>원</small></div>
-        </div>
-      </a>
-
-      <a class="card" data-sec="unopened" href="https://link.coupang.com/re/AFFSDP?lptag=AF8348495&amp;pageKey=9548227347&amp;itemId=28486839317&amp;vendorItemId=95436914144&amp;traceid=V0-153-7fb95e6902498337&amp;requestid=20260727143355505100141472&amp;token=31850C%7CMIXED" target="_blank" rel="noopener nofollow sponsored">
-        <div class="cfig"><img src="img/coupang_9548227347.jpg" alt="" loading="lazy"><div class="cbadge"></div></div>
+      <a class="card" data-sec="unopened" data-clicks="0" href="https://link.coupang.com/a/fIKx1a6BvU" target="_blank" rel="noopener nofollow sponsored">
+        <div class="cfig"><img src="img/coupang_9548227347.jpg" alt="" loading="lazy"><div class="cbadge"><span class="tag">미개봉 반품샵</span></div></div>
         <div class="cbody">
           <div class="cname">미개봉 새상품 한정수량 레노버 씽크패드 T14S Gen6 Ultra5-225U WUXGA 가성비 레노버백팩사은품 21R004SKR</div>
           <div class="cmeta">가전디지털</div>
@@ -365,17 +349,8 @@ button{font:inherit; color:inherit; background:none; border:0; cursor:pointer}
         </div>
       </a>
 
-      <a class="card" data-sec="unopened" href="https://link.coupang.com/re/AFFSDP?lptag=AF8348495&amp;pageKey=7271706151&amp;itemId=18546260345&amp;vendorItemId=85684233115&amp;traceid=V0-153-e38459c4afa8e2fe&amp;requestid=20260727143356896023988370&amp;token=31850C%7CMIXED" target="_blank" rel="noopener nofollow sponsored">
-        <div class="cfig"><img src="img/coupang_7271706151.jpg" alt="" loading="lazy"><div class="cbadge"></div></div>
-        <div class="cbody">
-          <div class="cname">[전시품] Shure SM89 Shotgun Microphone 샷건 콘덴서마이크 개당 45만원</div>
-          <div class="cmeta">가전디지털</div>
-          <div class="cprice">450,000<small>원</small></div>
-        </div>
-      </a>
-
-      <a class="card" data-sec="unopened" href="https://link.coupang.com/re/AFFSDP?lptag=AF8348495&amp;pageKey=9664911859&amp;itemId=28894753682&amp;vendorItemId=95827200549&amp;traceid=V0-153-b5aaaabf9a590ffc&amp;requestid=20260727143355505100141472&amp;token=31850C%7CMIXED" target="_blank" rel="noopener nofollow sponsored">
-        <div class="cfig"><img src="img/coupang_9664911859.jpg" alt="" loading="lazy"><div class="cbadge"></div></div>
+      <a class="card" data-sec="unopened" data-clicks="0" href="https://link.coupang.com/a/fIKx2uu7b3" target="_blank" rel="noopener nofollow sponsored">
+        <div class="cfig"><img src="img/coupang_9664911859.jpg" alt="" loading="lazy"><div class="cbadge"><span class="tag">미개봉 반품샵</span></div></div>
         <div class="cbody">
           <div class="cname">미개봉 새상품 레노버 씽크패드 워크북 P16 GEN2 21FAS1GW00 I7-14700HX/16G/512G/16 WQXGA IPS/RTX3500  최신 고성능 노트북</div>
           <div class="cmeta">가전디지털</div>
@@ -383,17 +358,8 @@ button{font:inherit; color:inherit; background:none; border:0; cursor:pointer}
         </div>
       </a>
 
-      <a class="card" data-sec="unopened" href="https://link.coupang.com/re/AFFSDP?lptag=AF8348495&amp;pageKey=6893333466&amp;itemId=16555295789&amp;vendorItemId=83741604290&amp;traceid=V0-153-bbb114a69e109b81&amp;requestid=20260727143356896023988370&amp;token=31850C%7CMIXED" target="_blank" rel="noopener nofollow sponsored">
-        <div class="cfig"><img src="img/coupang_6893333466.jpg" alt="" loading="lazy"><div class="cbadge"></div></div>
-        <div class="cbody">
-          <div class="cname">[매장전시품]태국 빈티지 와인 아이스버킷</div>
-          <div class="cmeta">주방용품</div>
-          <div class="cprice">50,000<small>원</small></div>
-        </div>
-      </a>
-
-      <a class="card" data-sec="unopened" href="https://link.coupang.com/re/AFFSDP?lptag=AF8348495&amp;pageKey=7420323461&amp;itemId=19247089509&amp;vendorItemId=86362939342&amp;traceid=V0-153-e8a3b619f2563ac6&amp;requestid=20260727143355505100141472&amp;token=31850C%7CMIXED" target="_blank" rel="noopener nofollow sponsored">
-        <div class="cfig"><img src="img/coupang_7420323461.jpg" alt="" loading="lazy"><div class="cbadge"></div></div>
+      <a class="card" data-sec="unopened" data-clicks="0" href="https://link.coupang.com/a/fIKx3BMcBo" target="_blank" rel="noopener nofollow sponsored">
+        <div class="cfig"><img src="img/coupang_7420323461.jpg" alt="" loading="lazy"><div class="cbadge"><span class="tag">미개봉 반품샵</span></div></div>
         <div class="cbody">
           <div class="cname">삼성전자 갤럭시북3 프로 NT960XFT-A51A 미개봉</div>
           <div class="cmeta">가전디지털</div>
@@ -401,8 +367,26 @@ button{font:inherit; color:inherit; background:none; border:0; cursor:pointer}
         </div>
       </a>
 
-      <a class="card" data-sec="rare" href="https://link.coupang.com/re/AFFSDP?lptag=AF8348495&amp;pageKey=9627927339&amp;itemId=28755120741&amp;vendorItemId=95694610354&amp;traceid=V0-153-93658193372c9360&amp;requestid=20260727143357144284785168&amp;token=31850C%7CGM" target="_blank" rel="noopener nofollow sponsored">
-        <div class="cfig"><img src="img/coupang_9627927339.jpg" alt="" loading="lazy"><div class="cbadge"></div></div>
+      <a class="card" data-sec="unopened" data-clicks="0" href="https://link.coupang.com/a/fIKx1FGUUu" target="_blank" rel="noopener nofollow sponsored">
+        <div class="cfig"><img src="img/coupang_7271706151.jpg" alt="" loading="lazy"><div class="cbadge"><span class="tag">전시품 특가</span></div></div>
+        <div class="cbody">
+          <div class="cname">[전시품] Shure SM89 Shotgun Microphone 샷건 콘덴서마이크 개당 45만원</div>
+          <div class="cmeta">가전디지털</div>
+          <div class="cprice">450,000<small>원</small></div>
+        </div>
+      </a>
+
+      <a class="card" data-sec="unopened" data-clicks="0" href="https://link.coupang.com/a/fIKx208Y9s" target="_blank" rel="noopener nofollow sponsored">
+        <div class="cfig"><img src="img/coupang_6893333466.jpg" alt="" loading="lazy"><div class="cbadge"><span class="tag">전시품 특가</span></div></div>
+        <div class="cbody">
+          <div class="cname">[매장전시품]태국 빈티지 와인 아이스버킷</div>
+          <div class="cmeta">주방용품</div>
+          <div class="cprice">50,000<small>원</small></div>
+        </div>
+      </a>
+
+      <a class="card" data-sec="rare" data-clicks="0" href="https://link.coupang.com/a/fIKx4p4BBA" target="_blank" rel="noopener nofollow sponsored">
+        <div class="cfig"><img src="img/coupang_9627927339.jpg" alt="" loading="lazy"><div class="cbadge"><span class="tag">이런 것도 팜</span></div></div>
         <div class="cbody">
           <div class="cname">2026년 신제품 모즈 가정용 미니 제빙기 급속 홈카페</div>
           <div class="cmeta"><span class="rk">로켓배송</span></div>
@@ -410,8 +394,8 @@ button{font:inherit; color:inherit; background:none; border:0; cursor:pointer}
         </div>
       </a>
 
-      <a class="card" data-sec="rare" href="https://link.coupang.com/re/AFFSDP?lptag=AF8348495&amp;pageKey=9617977643&amp;itemId=28719066512&amp;vendorItemId=95250394779&amp;traceid=V0-153-9aebe1118a69d6ca&amp;clickBeacon=c36bd4d0-897c-11f1-a919-458b5cfcb4d2%7E3&amp;requestid=20260727143357257250448282&amp;token=31850C%7CMIXED" target="_blank" rel="noopener nofollow sponsored">
-        <div class="cfig"><img src="img/coupang_9617977643.jpg" alt="" loading="lazy"><div class="cbadge"></div></div>
+      <a class="card" data-sec="rare" data-clicks="0" href="https://link.coupang.com/a/fIKx4XdjaK" target="_blank" rel="noopener nofollow sponsored">
+        <div class="cfig"><img src="img/coupang_9617977643.jpg" alt="" loading="lazy"><div class="cbadge"><span class="tag">이런 것도 팜</span></div></div>
         <div class="cbody">
           <div class="cname">Activa 특대형 캠핑웨건 백도어 오픈 푸시핸들 폴딩카트, 120 x 57 x 71cm, 블랙, 1개</div>
           <div class="cmeta"><span class="rk">로켓배송</span></div>
@@ -419,8 +403,8 @@ button{font:inherit; color:inherit; background:none; border:0; cursor:pointer}
         </div>
       </a>
 
-      <a class="card" data-sec="rare" href="https://link.coupang.com/re/AFFSDP?lptag=AF8348495&amp;pageKey=8542600081&amp;itemId=21564771931&amp;vendorItemId=91728187726&amp;traceid=V0-153-6a92dd6e13771a61&amp;requestid=20260727143357400100141950&amp;token=31850C%7CGM" target="_blank" rel="noopener nofollow sponsored">
-        <div class="cfig"><img src="img/coupang_8542600081.jpg" alt="" loading="lazy"><div class="cbadge"></div></div>
+      <a class="card" data-sec="rare" data-clicks="0" href="https://link.coupang.com/a/fIKx5x77KK" target="_blank" rel="noopener nofollow sponsored">
+        <div class="cfig"><img src="img/coupang_8542600081.jpg" alt="" loading="lazy"><div class="cbadge"><span class="tag">이런 것도 팜</span></div></div>
         <div class="cbody">
           <div class="cname">스위치봇 전동커튼3 레일형 42 x 51 x 173 mm</div>
           <div class="cmeta"><span class="rk">로켓배송</span></div>
@@ -428,17 +412,8 @@ button{font:inherit; color:inherit; background:none; border:0; cursor:pointer}
         </div>
       </a>
 
-      <a class="card" data-sec="rare" href="https://link.coupang.com/re/AFFSDP?lptag=AF8348495&amp;pageKey=9449381515&amp;itemId=28109853034&amp;vendorItemId=95065865120&amp;traceid=V0-153-76137fd60d246e36&amp;clickBeacon=c3a8ddd0-897c-11f1-be43-86f2132e0941%7E3&amp;requestid=20260727143357661219215296&amp;token=31850C%7CMIXED" target="_blank" rel="noopener nofollow sponsored">
-        <div class="cfig"><img src="img/coupang_9449381515.jpg" alt="" loading="lazy"><div class="cbadge"></div></div>
-        <div class="cbody">
-          <div class="cname">알마마 2026년형 21인치/24인치 최신형 레트로 게임기 35000게임 한국어지원 휴대용 2인용 3인용 4인용 캠핑용 가정용 오락실게임, 24인치 블랙</div>
-          <div class="cmeta">가전디지털</div>
-          <div class="cprice">329,000<small>원</small></div>
-        </div>
-      </a>
-
-      <a class="card" data-sec="rare" href="https://link.coupang.com/re/AFFSDP?lptag=AF8348495&amp;pageKey=9570813553&amp;itemId=28565765159&amp;vendorItemId=95510230494&amp;traceid=V0-153-b9058b88bd92f0fb&amp;clickBeacon=c3befde0-897c-11f1-8c83-5d702081e6b5%7E3&amp;requestid=20260727143357803313384989&amp;token=31850C%7CMIXED" target="_blank" rel="noopener nofollow sponsored">
-        <div class="cfig"><img src="img/coupang_9570813553.jpg" alt="" loading="lazy"><div class="cbadge"></div></div>
+      <a class="card" data-sec="rare" data-clicks="0" href="https://link.coupang.com/a/fIKx7DhBV6" target="_blank" rel="noopener nofollow sponsored">
+        <div class="cfig"><img src="img/coupang_9570813553.jpg" alt="" loading="lazy"><div class="cbadge"><span class="tag">이런 것도 팜</span></div></div>
         <div class="cbody">
           <div class="cname">AVUE Q7 오토 키스톤 안드로이드 빔프로젝터 280Ans 에어마우스, q7</div>
           <div class="cmeta"><span class="rk">로켓배송</span></div>
@@ -446,30 +421,21 @@ button{font:inherit; color:inherit; background:none; border:0; cursor:pointer}
         </div>
       </a>
 
-      <a class="card" data-sec="rare" href="https://link.coupang.com/re/AFFSDP?lptag=AF8348495&amp;pageKey=9508004531&amp;itemId=28331682742&amp;vendorItemId=95284047957&amp;traceid=V0-153-38c0417b323c093a&amp;clickBeacon=c3d60850-897c-11f1-b6f3-05a7ea13bcf6%7E3&amp;requestid=20260727143357956159262150&amp;token=31850C%7CMIXED" target="_blank" rel="noopener nofollow sponsored">
-        <div class="cfig"><img src="img/coupang_9508004531.jpg" alt="" loading="lazy"><div class="cbadge"></div></div>
+      <a class="card" data-sec="rare" data-clicks="0" href="https://link.coupang.com/a/fIKx6eOQyi" target="_blank" rel="noopener nofollow sponsored">
+        <div class="cfig"><img src="img/coupang_9449381515.jpg" alt="" loading="lazy"><div class="cbadge"><span class="tag">이런 것도 팜</span></div></div>
         <div class="cbody">
-          <div class="cname">엑스트로 차박텐트 대형 쉘터형 확장형 캠핑 SUV 차량용 텐트, 캐노피형, 카키</div>
-          <div class="cmeta">스포츠/레저</div>
-          <div class="cprice">459,000<small>원</small></div>
+          <div class="cname">알마마 2026년형 21인치/24인치 최신형 레트로 게임기 35000게임 한국어지원 휴대용 2인용 3인용 4인용 캠핑용 가정용 오락실게임, 24인치 블랙</div>
+          <div class="cmeta">가전디지털</div>
+          <div class="cprice">329,000<small>원</small></div>
         </div>
       </a>
 
-      <a class="card" data-sec="rare" href="https://link.coupang.com/re/AFFSDP?lptag=AF8348495&amp;pageKey=9616187832&amp;itemId=28712849187&amp;vendorItemId=95653569144&amp;traceid=V0-153-73f2206cf66ce140&amp;clickBeacon=c3f0bc40-897c-11f1-a3d7-f5064fc03810%7E3&amp;requestid=20260727143358127047498892&amp;token=31850C%7CMIXED" target="_blank" rel="noopener nofollow sponsored">
-        <div class="cfig"><img src="img/coupang_9616187832.jpg" alt="" loading="lazy"><div class="cbadge"></div></div>
+      <a class="card" data-sec="bcdeal" data-clicks="0" href="https://naver.me/539sI1lN" target="_blank" rel="noopener nofollow sponsored">
+        <div class="cfig"><img src="img/bc_834874158345728.jpg" alt="" loading="lazy"><div class="cbadge"><span class="tag">역대급 47% 할인</span></div></div>
         <div class="cbody">
-          <div class="cname">AMZCHEF 전동 커피그라인더 가정용 원두 그라인더 원두분쇄기, CG215B</div>
-          <div class="cmeta">주방용품</div>
-          <div class="cprice">138,000<small>원</small></div>
-        </div>
-      </a>
-
-      <a class="card" data-sec="rare" href="https://link.coupang.com/re/AFFSDP?lptag=AF8348495&amp;pageKey=1606053871&amp;itemId=2743004419&amp;vendorItemId=95473835583&amp;traceid=V0-153-66d1baa46296ff31&amp;clickBeacon=c403a800-897c-11f1-8afc-bd8a91bed6d5%7E3&amp;requestid=20260727143358251049923549&amp;token=31850C%7CMIXED" target="_blank" rel="noopener nofollow sponsored">
-        <div class="cfig"><img src="img/coupang_1606053871.jpg" alt="" loading="lazy"><div class="cbadge"></div></div>
-        <div class="cbody">
-          <div class="cname">AREMES 캠핑 미니 화로대 세트, 1개</div>
-          <div class="cmeta">스포츠/레저</div>
-          <div class="cprice">29,800<small>원</small></div>
+          <div class="cname">쿠쿠 인스퓨어 제습기 DH-YNL1652FEB 어스베이지 16L</div>
+          <div class="cmeta">쿠쿠전자</div>
+          <div class="cprice">263,000<small>원</small><span class="cwas">499,000원</span></div>
         </div>
       </a>
       <p class="empty" id="empty" hidden>해당하는 상품이 없어요.</p>
@@ -511,7 +477,9 @@ button{font:inherit; color:inherit; background:none; border:0; cursor:pointer}
   function filter(key, label){
     var n = 0;
     cards.forEach(function(c){
-      var hit = (key === 'all') || (c.dataset.sec === key);
+      var hit = (key === 'all') ? true
+              : (key === '__hot') ? (parseInt(c.dataset.clicks || '0', 10) > 0)
+              : (c.dataset.sec === key);
       c.hidden = !hit;
       if (hit) n++;
     });
